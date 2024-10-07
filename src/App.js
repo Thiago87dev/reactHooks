@@ -12,12 +12,14 @@ import Todo from './components/useReducer/Todo';
 import TodoCallbackPrincipal from './components/useCallback/TodoCallbackPrincipal';
 import Calculation from './components/useMemo/Calculation';
 import Fetch from './components/customHook/Fetch';
+import Nome from './components/useState/Nome';
 
 
 
 function App() {
   return (
     <div className="App">
+      <Nome/>
       <Color/>
       <Car/>
       <RenderCount/>
